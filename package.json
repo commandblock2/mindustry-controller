@@ -2,5 +2,8 @@
   "dependencies": {
     "mlogjs": "^0.5.2",
     "typescript": "^5.1.6"
+  },
+  "scripts": {
+    "build": "mkdir build; SRC=./src && find $SRC -type f -name \"*.ts\"  -exec sh -c 'npx mlogjs {} ./build/\"$(basename {} .ts)\".mlog' \\;"
   }
 }

@@ -8,9 +8,8 @@
 		"target": "ESNext"
 	},
 	"include": [
-		"./lib/**/*.ts",
-		"./src/**/*.js",
-		"./src/**/*.ts"
+		"./lib",
+		"./src",
 	],
 	"exclude": [
 		"node_modules"
